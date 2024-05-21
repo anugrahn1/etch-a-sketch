@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    /* border: solid red 2px; */
+    gap: 10px;
+    flex-direction: column;
+}
+
+.row {
+    /* border: solid red 2px; */
+    display: flex;
+    gap: 10px;
+}
+.box {
+    border: solid red 2px;
+    width: 15px;
+    height: 15px;
+}
