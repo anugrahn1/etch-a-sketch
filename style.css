@@ -1,17 +1,14 @@
 .container {
     display: flex;
-    /* border: solid red 2px; */
-    gap: 10px;
     flex-direction: column;
+    width: 800px; 
+    height: 800px;
+    border: solid red 1px;
 }
 
 .row {
-    /* border: solid red 2px; */
     display: flex;
-    gap: 10px;
 }
 .box {
-    border: solid red 2px;
-    width: 15px;
-    height: 15px;
+    outline: solid red 1px; /*Use outline instead of border to stop thickness affect size of div*/
 }
